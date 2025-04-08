@@ -7,13 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="">
-    <script src="jquery.js"></script>
-    <script>
+    <script src="arquicojava.js"></script>
+    <script>    
+
+$(document).ready(function(){
+
+
 
 
           btn_um.onclick = function (){alert("1")}
-          btn_dois.onclick = function (){}
-          btn_tres.onclick = function (){}
+          btn_dois.onclick = function (){$("#campo").val("1");}
+          btn_tres.onclick = function (){$("#campo").val("2");}
           btn_adicao.onclick = function (){}
           btn_porcentagem.onclick = function (){}
 
@@ -44,7 +48,7 @@
 
 
 
-
+          });
 
 
 
@@ -95,3 +99,4 @@
    </body>
 </html>
 
+..............................................................................................................................................................................................................................
