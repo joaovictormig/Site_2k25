@@ -8,87 +8,29 @@
     <link rel="stylesheet" type="text/css" href="">
     <script src="Jquerycal.js"></script>
     <script>
-
-        $(document).ready(function () {
-
-
-
-            let operacao; total; um; dois; tres; quatro; cinco; seis; sete; oito; novo; zero; soma; subtração; divisão; multiplicação; potencia; porcentagem;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            btn_um.onclick = function () { $("#campo").val("1");  um = 1;}
-            btn_dois.onclick = function () { $("#campo").val("2"); dois = 2}
-            btn_tres.onclick = function () { $("#campo").val("3"); }
-            btn_adicao.onclick = function () { $("#campo").val("+"); operacao = "a" }
-            btn_porcentagem.onclick = function () { $("#campo").val("%"); }
-
-
-            btn_quatro.onclick = function () { $("#campo").val("4"); }
-            btn_cinco.onclick = function () { $("#campo").val("5"); }
-            btn_seis.onclick = function () { $("#campo").val("6"); }
-            btn_subtração.onclick = function () { $("#campo").val("-"); }
-            btn_potencia.onclick = function () { $("#campo").val(""); }
-
-            btn_sete.onclick = function () { }
-            btn_oito.onclick = function () { }
-            btn_nove.onclick = function () { }
-            btn_divisão.onclick = function () { }
-            btn_pa.onclick = function () { }
-
-
-            btn_ponto.onclick = function () { }
-            btn_zero.onclick = function () { }
-            btn_virgula.onclick = function () { }
-            btn_multiplicação.onclick = function () { }
-            btn_pf.onclick = function () { }
-
-
-            btn_igual.onclick = function () { }
-            btn_apagar.onclick = function () { }
-
-
-
-
-        });
-
-
-
-
-
-
-
-
-
     </script>
+
+
+<style>
+    </Style>
+
+
+
+
+
 </head>
 
 <body>
     <fieldset>
         <legend>calculadora</legend>
-        <input type="number" id="campo">
+        <input type="text" id="campo">
         </br></br>
 
-        <button id="btn_um">1</button>
-        <button id="btn_dois">2</button>
-        <button id="btn_tres">3</button>
-        <button id="btn_adicao">+</button>
-        <button id="btn_porcentagem">%</button>
+        <button id="btn_um" onclick="('')" class="botao">1</button>
+        <button id="btn_dois" onclick="('')" class="botao"    >2</button>
+        <button id="btn_tres"  onclick="('')" class="botao"       >3</button>
+        <button id="btn_adicao" onclick="('')" class="botaoo"               >+</button>
+        <button id="btn_porcentagem"onclick="('')" class="botaoo">%</button>
 
         </br></br>
         <button id="btn_quatro">4</button>
